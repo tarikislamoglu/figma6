@@ -3,12 +3,13 @@ import React from "react";
 const App = () => {
   return (
     <div className="bg-[#000000] h-screen w-full relative flex justify-center items-center">
-      <div className="bg-[#27B902CC] triangle absolute top-[105px] left-[130px] rotate-[-50deg] w-[116px] h-[121px] lg:block hidden "></div>
-      <div className="bg-[#27B902CC] triangle absolute top-[500px] left-[1123.66px] rotate-[50deg] w-[116px] h-[121px] lg:block hidden"></div>
-      <div className="right-paralelogram top-[-350px] left-[1000px] w-[700px] h-[900px]  bg-gradient-to-b  to-[#FF0000] from-[#000AFF] opacity-40 absolute rounded-bl-[113px] lg:block hidden"></div>
-      <div className="left-paralelogram top-[250px] left-[-275px] w-[700px] h-[900px] bg-gradient-to-b from-[#000AFF] to-[#0235B9] opacity-40 absolute rounded-tr-[113px] lg:block hidden"></div>
+      <div className="triangle top-[80px] left-[130px] rotate-[-50deg] lg:block hidden "></div>
+      <div className="triangle bottom-[80px] right-[120px] rotate-[50deg] lg:block hidden"></div>
 
-      <div className="h-3/5 md:w-1/3 w-2/3 bg-[#FFFFFF0D] z-10 shadow-lg">
+      <div className="paralelogram top-0 right-0 bg-gradient-to-t  from-[#ad0101] to-[#10136050] lg:block hidden "></div>
+      <div className="paralelogram bottom-0 left-0 rotate-180 bg-gradient-to-t from-[#3439c6] to-[#01237900] lg:block hidden "></div>
+
+      <div className="h-3/5 lg:w-1/3 w-2/3 bg-[#FFFFFF0D] z-10 shadow-lg">
         <form className="flex flex-col space-y-5 p-5 ">
           <h3 className="font-bold text-[50px] text-[#8A8A8A] md:w-1/2 w-full text-center md:text-start ">
             LOGIN

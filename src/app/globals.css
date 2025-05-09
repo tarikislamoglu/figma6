@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
 @layer utilities {
-  .right-paralelogram {
-    clip-path: polygon(0 0, 91% 13%, 100% 100%, 10% 82%);
-  }
-  .left-paralelogram {
-    clip-path: polygon(0 0, 88% 19%, 100% 100%, 9% 89%);
+  .paralelogram {
+    clip-path: polygon(0 0, 100% 0, 99% 89%, 24% 75%);
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    border-radius: 0% 100% 0 100% / 0% 0% 100% 100%;
   }
   .triangle {
     clip-path: polygon(52% 0, 0 82%, 100% 83%);
+    width: 116px;
+    height: 121px;
+    background-color: #27b902cc;
+    position: absolute;
   }
 }
