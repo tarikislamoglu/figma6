@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="bg-[#000000] h-screen w-full relative flex justify-center items-center">
+    <div className="bg-[#000000] min-h-screen max-w-full relative flex justify-center items-center">
       <div className="triangle top-[80px] left-[130px] rotate-[-50deg] lg:block hidden "></div>
       <div className="triangle bottom-[80px] right-[120px] rotate-[50deg] lg:block hidden"></div>
 
